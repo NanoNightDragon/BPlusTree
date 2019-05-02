@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BPTree.cs" />
+    <Compile Include="Class_Select.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QTestC.cs" />
+    <Compile Include="Testoflab.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

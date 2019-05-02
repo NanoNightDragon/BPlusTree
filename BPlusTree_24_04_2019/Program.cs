@@ -10,8 +10,10 @@ namespace BPlusTree_24_04_2019
     {
         static void Main(string[] args)
         {
-            QTestC t = new QTestC();
-            
+            //QTestC t = new QTestC();
+            Testoflab LT = new Testoflab();
+
+
 
         }
     }
