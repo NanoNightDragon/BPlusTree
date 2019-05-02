@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BPlusTree_24_04_2019
 {
-    class Class_Select
+    public class Class_Select
     {
         private int G_Size;
         public Class_Select()
