@@ -1,0 +1,7 @@
+Z:\body\С#\BPlusTree_24_04_2019\BPlusTree_24_04_2019\obj\Debug\BPlusTree_24_04_2019.csprojAssemblyReference.cache
+Z:\body\С#\BPlusTree_24_04_2019\BPlusTree_24_04_2019\obj\Debug\BPlusTree_24_04_2019.csproj.CoreCompileInputs.cache
+Z:\body\С#\BPlusTree_24_04_2019\BPlusTree_24_04_2019\bin\Debug\BPlusTree_24_04_2019.exe.config
+Z:\body\С#\BPlusTree_24_04_2019\BPlusTree_24_04_2019\bin\Debug\BPlusTree_24_04_2019.exe
+Z:\body\С#\BPlusTree_24_04_2019\BPlusTree_24_04_2019\bin\Debug\BPlusTree_24_04_2019.pdb
+Z:\body\С#\BPlusTree_24_04_2019\BPlusTree_24_04_2019\obj\Debug\BPlusTree_24_04_2019.exe
+Z:\body\С#\BPlusTree_24_04_2019\BPlusTree_24_04_2019\obj\Debug\BPlusTree_24_04_2019.pdb
