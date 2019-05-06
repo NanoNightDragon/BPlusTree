@@ -12,7 +12,10 @@ namespace BPlusTree_24_04_2019
         {
             Class_Select select = new Class_Select();
             List<int> test_List = select.RandomNum(100);
-            List<int> REL = select.Selcet(test_List, select.Is_Even_Number).ToList<int>();
+            //List<int> test_List = null;
+            
+            List<int> REL = select.Select(test_List, select.Is_Even_Number).ToList<int>();
+            
             int k = 1;
             foreach (int elem in REL)
             {

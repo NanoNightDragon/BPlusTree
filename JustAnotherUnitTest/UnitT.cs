@@ -18,7 +18,7 @@ namespace JustAnotherUnitTest
 
             Class_Select Final_List = new Class_Select();
 
-            int [] REL = Final_List.Selcet( TOS, Final_List.Is_Even_Number).ToArray<int>();
+            int [] REL = Final_List.Select( TOS, Final_List.Is_Even_Number).ToArray<int>();
 
 
             CollectionAssert.AreEqual(expected, REL);
@@ -33,10 +33,20 @@ namespace JustAnotherUnitTest
 
             Class_Select Final_List = new Class_Select();
 
-            int[] REL = Final_List.Selcet(TOS, Final_List.Is_Even_Number).ToArray<int>();
+            int[] REL = Final_List.Select(TOS, Final_List.Is_Even_Number).ToArray<int>();
 
 
             CollectionAssert.AreEqual(expected, REL);
+
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException),
+            "sequence cann't be null")]
+        public void Null_SimpleTest()
+        {
+            Class_Select Final_List = new Class_Select();
+            Final_List.Select(null, Final_List.Is_Even_Number).ToArray<int>();
 
         }
 

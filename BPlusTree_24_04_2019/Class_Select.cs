@@ -32,8 +32,15 @@ namespace BPlusTree_24_04_2019
             return false;
         }
 
-        public IEnumerable<int> Selcet(IEnumerable<int> sequence,Func<int,bool> call_back_fun)
+        public IEnumerable<int> Select(IEnumerable<int> sequence,Func<int,bool> call_back_fun)
         {
+
+            if (sequence == null)
+            {
+                throw new ArgumentException("sequence cann't be null");
+
+            }
+                
             BPlusTree TempTree = new BPlusTree();
             foreach(int elem in sequence)
             {
