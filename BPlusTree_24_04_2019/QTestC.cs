@@ -27,10 +27,7 @@ namespace BPlusTree_24_04_2019
             a.insert(5);
             a.insert(100);
             a.insert(17);
-            a.insert(22);
-            a.insert(34);
-            a.insert(177);
-            a.insert(188);
+
 
             //test 
             a.insert(14);
@@ -39,7 +36,7 @@ namespace BPlusTree_24_04_2019
             a.insert(26);
 
             int v; Random random = new Random();
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 2000; i++)
             {
                 v = random.Next(1000);
                 a.insert(v);
@@ -56,14 +53,6 @@ namespace BPlusTree_24_04_2019
                 if (i % 10 == 0 && i != 0)
                     Console.WriteLine();
             }
-
-
-
-            
-
-
-            //a.insert(8);
-            //a.insert(10);
 
             Console.WriteLine(a.FindE(100, a.Root));
             Console.ReadLine();
